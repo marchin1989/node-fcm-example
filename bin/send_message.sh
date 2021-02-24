@@ -13,4 +13,4 @@ export GOOGLE_APPLICATION_CREDENTIALS="${PROJECT_HOME}/service-account-file.json
 # 端末から取得する
 export DEVICE_TOKEN='YOUR-DEVICE-TOKEN'
 
-node index.js
+node lib/index.js

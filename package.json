@@ -9,9 +9,13 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "./bin/send_message.sh"
+    "build": "npx tsc",
+    "start": "npm run build && ./bin/send_message.sh"
   },
   "dependencies": {
     "firebase-admin": "^9.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.2"
   }
 }
