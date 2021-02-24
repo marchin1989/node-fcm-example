@@ -1,6 +1,6 @@
 # node-fcm-example
 
-Firebase Admin SDK を使って、実行するサンプル。
+Firebase Admin SDK を使って、FCM のプッシュ通知を配信するサンプル。
 
 # 実行手順
 
