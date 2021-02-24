@@ -1,0 +1,4 @@
+node_modules/
+
+# firebase admin sdk credential
+service-account-file.json
